@@ -10,7 +10,7 @@ When working on several PHP projects without a framework, it is often the case t
     curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($ch,CURLOPT_HEADER, false); 
     curl_setopt($ch, CURLOPT_POST, count($post_data));
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);    
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);    
  
     $res=curl_exec($ch);
 
